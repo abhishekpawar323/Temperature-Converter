@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMPERATURE CONVERTER</title>
+    <link rel="stylesheet" href="temp.css">
+    <script src="temp.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TEMPERATURE CONVERTER</h1>
+            <h2>Degree Celsius</h2>
+            <div class="box">
+                <input type="number" name="" id="celsiusInput" placeholder="Degree Celsius" oninput="convertTemperature('celsius')">
+                <p>°C</p>
+            </div>
+            <h2>Fahrenheit</h2>
+            <div class="box">
+                <input type="number" name="" id="fahrenheitInput" placeholder="Fahrenheit" oninput="convertTemperature('fahrenheit')">
+                <p>°F</p>
+            </div>
+
+            <h2>Kelvin</h2>
+            <div class="box">
+                <input type="number" name="" id="kelvinInput" placeholder="Kelvin" oninput="convertTemperature('kelvin')">
+                <p>K</p>
+            </div>
+    </div>
+</body>
+</html> 
